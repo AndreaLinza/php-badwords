@@ -33,7 +33,7 @@ $voldemort_lenght = strlen($voldemort_text);
         <h1 class="text-center pb-3">PHP BadWords</h1>
 
         <h4>Il testo precedente era lungo: <?php echo $text_lenght ?></h4>
-        <h4>Il testo precedente era lungo: <?php echo $voldemort_lenght ?></h4>
+        <h4>Il testo ora è lungo: <?php echo $voldemort_lenght ?></h4>
             <div class="card-body text-center">
                 <p class="fs-3"><?php echo $voldemort?></p>
                 <p class="fs-3"><?php echo $voldemort_text?></p>
