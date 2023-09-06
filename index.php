@@ -16,7 +16,7 @@
 <body>
 
     <div class="container">
-        <h1 class="text-center pb-3">PHP BadWords</h1>
+        <h1 class="text-center py-3">PHP BadWords</h1>
 
         <form action="filter.php" class="card" method="POST">
             <div class="card-body">
@@ -25,9 +25,10 @@
                     <input type="text" class="form-control" name="voldemort">
                 </div>
                 <div class="mb-3">
-                    <label class="fs-3">Testo da inserire</label>
-                    <input type="text" class="form-control" name="text-input">
+                    <label for="text-input" class="form-label fs-3">Testo da inserire</label>
+                    <textarea class="form-control" name="text-input" rows="3"></textarea>
                 </div>
+
 
                 <button class="btn btn-primary" type="submit">Si Comincia</button>
             </div>
